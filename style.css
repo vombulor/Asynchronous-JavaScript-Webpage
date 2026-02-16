@@ -1,0 +1,80 @@
+/* ===== Global Styles ===== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #2e003e, #4b0082, #6a0dad);
+    color: #2e003e;
+}
+
+/* ===== Main container ===== */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #f5e9ff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* ===== Title ===== */
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4b0082;
+}
+
+/* ===== Dropdown section ===== */
+.selector {
+    margin-bottom: 25px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+select {
+    padding: 10px;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 6px;
+    border: 2px solid #6a0dad;
+    background-color: #ffffff;
+    font-size: 16px;
+}
+
+/* ===== Country info section ===== */
+.country-info {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #d8b4ff;
+}
+
+.country-info img {
+    width: 220px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.info-item {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .country-info img {
+        width: 100%;
+    }
+}
